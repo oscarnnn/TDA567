@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92c6622-cf9c-46aa-bfb4-d1a5fa631fa2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java" afterPath="$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Test/WorkingEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Test/WorkingEmployeeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TDA567$WorkScheduleTest_testSomeHourFull.coverage" NAME="WorkScheduleTest.testSomeHourFull Coverage Results" MODIFIED="1541239595335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TDA567$All_in_TDA567.coverage" NAME="All in TDA567 Coverage Results" MODIFIED="1541240473892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TDA567$All_in_TDA567.ic" NAME="All in TDA567 Coverage Results" MODIFIED="1541199127173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TDA567$All_in_TDA567.ic" NAME="All in TDA567 Coverage Results" MODIFIED="1541245330275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1704111259">
@@ -28,79 +25,135 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1237" />
+          <entry key="java" value="1560" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1237" />
+          <entry key="JAVA" value="1560" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WorkScheduleTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1802#1803#0" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkSchedule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="857">
+                  <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#427#428#0" expanded="true" />
+                    <element signature="e#494#495#0" expanded="true" />
+                    <element signature="e#598#599#0" expanded="true" />
+                    <element signature="e#663#664#0" expanded="true" />
+                    <element signature="e#766#767#0" expanded="true" />
+                    <element signature="e#833#834#0" expanded="true" />
+                    <element signature="e#936#937#0" expanded="true" />
+                    <element signature="e#1001#1002#0" expanded="true" />
+                    <element signature="e#1117#1118#0" expanded="true" />
+                    <element signature="e#1183#1184#0" expanded="true" />
+                    <element signature="e#1365#1366#0" expanded="true" />
+                    <element signature="e#1808#1809#0" expanded="true" />
+                    <element signature="e#1874#1875#0" expanded="true" />
+                    <element signature="e#2333#2334#0" expanded="true" />
+                    <element signature="e#2398#2399#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="665">
+                  <caret line="96" column="20" lean-forward="true" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#427#428#0" expanded="true" />
+                    <element signature="e#494#495#0" expanded="true" />
+                    <element signature="e#587#588#0" expanded="true" />
+                    <element signature="e#652#653#0" expanded="true" />
+                    <element signature="e#755#756#0" expanded="true" />
+                    <element signature="e#822#823#0" expanded="true" />
+                    <element signature="e#925#926#0" expanded="true" />
+                    <element signature="e#990#991#0" expanded="true" />
+                    <element signature="e#1106#1107#0" expanded="true" />
+                    <element signature="e#1172#1173#0" expanded="true" />
+                    <element signature="e#1289#1290#0" expanded="true" />
+                    <element signature="e#1354#1355#0" expanded="true" />
+                    <element signature="e#1808#1809#0" expanded="true" />
+                    <element signature="e#1874#1875#0" expanded="true" />
+                    <element signature="e#2333#2334#0" expanded="true" />
+                    <element signature="e#2398#2399#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkingEmployeeTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="298">
+                  <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#681#682#0" expanded="true" />
+                    <element signature="e#760#761#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Lab1/src/Test/WorkScheduleTest.java" />
+        <option value="$PROJECT_DIR$/Lab1/Test/WorkingEmployeesTest.java" />
+        <option value="$PROJECT_DIR$/Lab1/src/WorkSchedule.java" />
         <option value="$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java" />
+        <option value="$PROJECT_DIR$/Lab1/Test/WorkingEmployeeTest.java" />
       </list>
     </option>
   </component>
@@ -110,21 +163,10 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,6 +190,13 @@
               <item name="TDA567" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDA567" type="462c0819:PsiDirectoryNode" />
               <item name="Lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDA567" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDA567" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -155,6 +204,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -162,13 +212,20 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541238445363" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541246968702" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ogge\Documents\TDA567\Lab1" />
     </key>
@@ -185,87 +242,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in TDA567">
+  <component name="RunManager" selected="JUnit.WorkingEmployeeTest">
     <configuration name="All in TDA567" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TDA567" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="WorkScheduleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <module name="TDA567" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="TDA567" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test.WorkScheduleTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="WorkScheduleTest.testSomeHourFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TDA567" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WorkScheduleTest" />
       <option name="METHOD_NAME" value="testSomeHourFull" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WorkScheduleTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in TDA567" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WorkScheduleTest.testSomeHourFull" />
+    <configuration name="WorkingEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDA567" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkingEmployeeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.WorkScheduleTest" />
+      <item itemvalue="JUnit.All in TDA567" />
+      <item itemvalue="JUnit.WorkScheduleTest.testSomeHourFull" />
+      <item itemvalue="JUnit.WorkingEmployeeTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in TDA567" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WorkScheduleTest.testSomeHourFull" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WorkScheduleTest" />
+      <list>
+        <item itemvalue="JUnit.WorkingEmployeeTest" />
+        <item itemvalue="JUnit.All in TDA567" />
+        <item itemvalue="JUnit.WorkScheduleTest.testSomeHourFull" />
+        <item itemvalue="JUnit.WorkScheduleTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -281,86 +318,90 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TDA567 - 2018.11.02 at 23h 34m 40s.xml">
+    <history-entry file="All_in_TDA567 - 2018.11.03 at 12h 42m 15s.xml">
       <configuration name="All in TDA567" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.02 at 23h 36m 46s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 12h 49m 36s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.02 at 23h 40m 28s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 12h 57m 30s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 08m 29s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 12h 57m 50s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 19m 29s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 13h 00m 35s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 21m 12s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 13h 01m 13s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 21m 15s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 13h 01m 41s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkScheduleTest - 2018.11.02 at 23h 32m 30s.xml">
-      <configuration name="WorkScheduleTest" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 13h 04m 54s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkScheduleTest - 2018.11.02 at 23h 34m 46s.xml">
-      <configuration name="WorkScheduleTest" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 13h 05m 09s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkScheduleTest_testSomeHourFull - 2018.11.03 at 11h 06m 38s.xml">
-      <configuration name="WorkScheduleTest.testSomeHourFull" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeeTest - 2018.11.03 at 13h 05m 16s.xml">
+      <configuration name="WorkingEmployeeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31842965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37995824" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4157549" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3795309" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkingEmployeesTest.java" />
+    <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="96" column="20" lean-forward="true" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
             <element signature="e#755#756#0" expanded="true" />
@@ -371,40 +412,22 @@
             <element signature="e#1172#1173#0" expanded="true" />
             <element signature="e#1289#1290#0" expanded="true" />
             <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2398#2399#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
+    <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkingEmployeeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        <state relative-caret-position="298">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
           </folding>
         </state>
       </provider>
