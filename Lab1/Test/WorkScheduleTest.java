@@ -83,7 +83,9 @@ public class WorkScheduleTest {
      * Test for hour.workingEmployees.contains(employee)
      */
     @Test
-    public void testEmployeeAlreadyScheduled(){}
+    public void testEmployeeAlreadyScheduled(){
+
+    }
 
     /* Partition #10
      * Test for !hour.workingEmployees.contains(employee)
