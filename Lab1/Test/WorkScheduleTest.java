@@ -62,4 +62,34 @@ public class WorkScheduleTest {
     public void testStarttimeEndtime2(){
         Assert.assertTrue(ws.addWorkingPeriod(test1,1,1));
     }
+
+    /* Partition #7
+     * Test for hour.workingEmployees.length == requiredNumber
+     */
+    @Test
+    public void testSomeHourFull(){
+
+    }
+
+    /* Partition #8
+     * Test for hour.workingEmployees.length != reuiredNumber
+     */
+    @Test
+    public void testNoHourFull(){
+
+    }
+
+    /* Partition #9
+     * Test for hour.workingEmployees.contains(employee)
+     */
+    @Test
+    public void testEmployeeAlreadyScheduled(){}
+
+    /* Partition #10
+     * Test for !hour.workingEmployees.contains(employee)
+     */
+    @Test
+    public void testEmployeeNotScheduled(){
+
+    }
 }
