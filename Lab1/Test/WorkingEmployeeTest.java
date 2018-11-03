@@ -5,26 +5,36 @@ import org.junit.Test;
 
 public class WorkingEmployeeTest {
     private WorkSchedule ws;
-    String lars,patrik;
-    String[] listWorkers = {"Patrik","Lars"};
+    private String lars,patrik;
+    private String[] listWorkers;
 
     @Before
     public void init(){
-        ws = new WorkSchedule(24);
         lars = "Lars";
         patrik = "Patrik";
-        ws.addWorkingPeriod(lars,12,17);
-        ws.addWorkingPeriod(patrik,8,11);
+        listWorkers = new String[2];
+        listWorkers[0] = patrik;
+        listWorkers[1] = lars;
+        ws = new WorkSchedule(24);
+        ws.setRequiredNumber(5,0,23);
+        ws.addWorkingPeriod("Peter",12,17);
+        ws.addWorkingPeriod("Anders",8,11);
     }
 
+    /* Partition #1
+     * starttime <= endtime
+     */
     @Test
     public void testEmployeeScheduled(){
         Assert.assertArrayEquals(listWorkers,ws.workingEmployees(0,23));
     }
 
+    /* Partition #2
+     * starttime > endtime
+     */
     @Test
     public void testEmployeesScheduledInvalidInput(){
-        Assert.assertArrayEquals(listWorkers,ws.workingEmployees(23,0));
+        Assert.assertArrayEquals(new String[0],ws.workingEmployees(23,0));
     }
 
 
