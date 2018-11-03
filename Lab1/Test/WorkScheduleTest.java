@@ -5,20 +5,20 @@ import org.junit.Test;
 
 public class WorkScheduleTest {
 
-   private WorkSchedule ws;
-   String test1;
+    private WorkSchedule ws;
+    String test1;
 
-   @Before
-   public  void initTest(){
-       ws = new WorkSchedule(24);
-       test1 = "Lars";
-       ws.setRequiredNumber(5,0,23);
+    @Before
+    public  void initTest(){
+        ws = new WorkSchedule(24);
+        test1 = "Lars";
+        ws.setRequiredNumber(5,0,23);
 
-   }
+    }
 
-   /* Partition #1
-    * Test for starttime < 0
-    */
+    /* Partition #1
+     * Test for starttime < 0
+     */
     @Test
     public void testStarttime1(){
         Assert.assertTrue(!ws.addWorkingPeriod(test1,-1,3));
@@ -66,7 +66,7 @@ public class WorkScheduleTest {
 
     /* Partition #7
      * Test for hour.workingEmployees.length == requiredNumber
-            between start and endtime
+     * between start and endtime
      */
     @Test
     public void testSomeHourFull(){
@@ -75,30 +75,30 @@ public class WorkScheduleTest {
     }
     /* Partition #8
      * Test for hour.workingEmployees.length != reuiredNumber
-       between start and endtime
+     * between start and endtime
      */
     @Test
     public void testNoHourFull(){
-       Assert.assertTrue(ws.addWorkingPeriod(test1,0,23));
+        Assert.assertTrue(ws.addWorkingPeriod(test1,0,23));
     }
 
     /* Partition #9
      * Test for hour.workingEmployees.contains(employee)
-     *        between start and endtime
+     * between start and endtime
      */
     @Test
     public void testEmployeeAlreadyScheduled(){
-      ws.addWorkingPeriod(test1,0,5);
-      Assert.assertFalse(ws.addWorkingPeriod(test1,0,5));
+        ws.addWorkingPeriod(test1,0,5);
+        Assert.assertFalse(ws.addWorkingPeriod(test1,0,5));
     }
 
     /* Partition #10
      * Test for !hour.workingEmployees.contains(employee)
-     *        between start and endtime
+     * between start and endtime
      */
+
     @Test
     public void testEmployeeNotScheduled(){
         Assert.assertTrue(ws.addWorkingPeriod(test1,0,5));
-
     }
 }
