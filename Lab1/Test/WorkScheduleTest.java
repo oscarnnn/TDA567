@@ -13,7 +13,6 @@ public class WorkScheduleTest {
         ws = new WorkSchedule(24);
         test1 = "Lars";
         ws.setRequiredNumber(5,0,23);
-
     }
 
     /* Partition #1

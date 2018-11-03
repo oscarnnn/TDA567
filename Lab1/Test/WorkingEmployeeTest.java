@@ -16,9 +16,9 @@ public class WorkingEmployeeTest {
         listWorkers[0] = patrik;
         listWorkers[1] = lars;
         ws = new WorkSchedule(24);
-        ws.setRequiredNumber(5,0,23);
-        ws.addWorkingPeriod("Peter",12,17);
-        ws.addWorkingPeriod("Anders",8,11);
+        ws.setRequiredNumber(2,0,23);
+        ws.addWorkingPeriod(patrik,0,23);
+        ws.addWorkingPeriod(lars,0,23);
     }
 
     /* Partition #1
