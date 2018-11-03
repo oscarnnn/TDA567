@@ -60,11 +60,16 @@ public class Set {
     }
 
     public boolean containsArithTriple() {
-        for (int i = 0; i < a.size(); i++) {
-            for (int j = 0; j <= i; j++) {
-                if (member(2 * a.get(i) - a.get(j))) return true;
+        if(a.size() < 3){
+            return false;
+        }
+        for (int i = 0; i < a.size()-1; i++) {
+                //find if z is in set by using 2y -x as z, because of y-x = z-y
+            if (member(2*a.get(i)-a.get(i+1))){
+                return true;
             }
         }
         return false;
     }
 }
+

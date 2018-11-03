@@ -8,12 +8,13 @@ import java.util.Arrays;
 
 public class SetTest {
 
-    Set setA,setB;
+    Set setA,setB,setC;
 
     @Before
     public void init(){
         setA = new Set();
         setB = new Set();
+        setC = new Set();
     }
 
     @Test
@@ -45,6 +46,7 @@ public class SetTest {
         setA.insert(1);
         setA.insert(2);
 
+
         setB.insert(2);
         setA.section(setB);
         Assert.assertArrayEquals(new int[]{1},setA.toArray());
@@ -54,7 +56,6 @@ public class SetTest {
         Assert.assertArrayEquals(new int[]{2}, setB.toArray());
 
         //setC empty set and set A contains [1]
-        Set setC = new Set();
         setC.section(setA);
         Assert.assertArrayEquals(new int[]{}, setC.toArray());
     }
@@ -67,5 +68,16 @@ public class SetTest {
         setA.insert(10);
 
         Assert.assertTrue(setA.containsArithTriple());
+        //testing invalid input, expect false
+        setB.insert(7);
+        setB.insert(0);
+        setB.insert(2);
+        Assert.assertFalse(setB.containsArithTriple());
+
+        //testing with invalid input, expect false
+        setC.insert(3);
+        Assert.assertFalse(setC.containsArithTriple());
+
+
     }
 }
