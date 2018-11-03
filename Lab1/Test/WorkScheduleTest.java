@@ -20,7 +20,7 @@ public class WorkScheduleTest {
      */
     @Test
     public void testStarttime1(){
-        Assert.assertTrue(!ws.addWorkingPeriod(test1,-1,3));
+        Assert.assertTrue(!ws.addWorkingPeriod(test1,-1,23));
     }
 
     /* Partition #2
@@ -28,7 +28,7 @@ public class WorkScheduleTest {
      */
     @Test
     public void testStarttime2(){
-        Assert.assertTrue(ws.addWorkingPeriod(test1,1,3));
+        Assert.assertTrue(ws.addWorkingPeriod(test1,1,23));
     }
 
     /* Partition #3
@@ -36,7 +36,7 @@ public class WorkScheduleTest {
      */
     @Test
     public void testEndtime1(){
-        Assert.assertTrue(!ws.addWorkingPeriod(test1,1,24));
+        Assert.assertTrue(!ws.addWorkingPeriod(test1,0,24));
     }
 
     /* Partition #4
@@ -44,7 +44,7 @@ public class WorkScheduleTest {
      */
     @Test
     public void testEndtime2(){
-        Assert.assertTrue(ws.addWorkingPeriod(test1,1,3));
+        Assert.assertTrue(ws.addWorkingPeriod(test1,0,22));
     }
 
     /* Partition #5

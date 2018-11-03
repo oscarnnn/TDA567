@@ -3,6 +3,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 public class WorkingEmployeeTest {
     private WorkSchedule ws;
     private String lars,patrik;
@@ -16,9 +18,10 @@ public class WorkingEmployeeTest {
         listWorkers[0] = patrik;
         listWorkers[1] = lars;
         ws = new WorkSchedule(24);
-        ws.setRequiredNumber(2,0,23);
-        ws.addWorkingPeriod(patrik,0,23);
-        ws.addWorkingPeriod(lars,0,23);
+        ws.setRequiredNumber(5,0,23);
+        ws.addWorkingPeriod(patrik,2,7);
+        ws.addWorkingPeriod(lars,3,4);
+        System.out.println(Arrays.toString(ws.workingEmployees(0,23)));
     }
 
     /* Partition #1
