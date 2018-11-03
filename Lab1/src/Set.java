@@ -1,3 +1,4 @@
+package lab1;
 import java.util.*;
 
 public class Set {
@@ -17,12 +18,12 @@ public class Set {
 
     public void insert(int x) {
         for (int i = 0; i < a.size(); i++) {
-            if (a.get(i) > x) {
+            if (x < a.get(i)) {
                 a.add(i, x);
-                break;
+                return;
             } else {
                 if (a.get(i) == x) {
-                    break;
+                    return;
                 }
             }
         }
@@ -31,7 +32,7 @@ public class Set {
 
     public boolean member(int x) {
         for (int i = 0; i < a.size(); i++) {
-            if (a.get(i) > x) {
+            if (x < a.get(i)) {
                 return false;
             } else {
                 if (a.get(i) == x) {
