@@ -17,7 +17,7 @@ public class SetTest {
         setC = new Set();
     }
 
-    @Test
+   /* @Test
     public void testInsert() {
         //inserting numbers in an arbitrary order, also trying to insert a duplicate
         setA.insert(3);
@@ -25,10 +25,31 @@ public class SetTest {
         setA.insert(2);
         setA.insert(4);
         Assert.assertArrayEquals(new int[]{2,3,4}, setA.toArray());
+    }*/
+
+    @Test
+    public void testInsertSetEmpty(){
+        setA.insert(3);
+        Assert.assertArrayEquals(new int[]{3},setA.toArray());
     }
 
     @Test
-    public void testMember(){
+    public void testInsertMultipleElements(){
+        setA.insert(3);
+        setA.insert(2);
+        setA.insert(4);
+        Assert.assertArrayEquals(new int[]{2,3,4}, setA.toArray());
+    }
+
+    @Test
+    public void testInsertDuplicate(){
+        setA.insert(3);
+        setA.insert(3);
+        Assert.assertArrayEquals(new int[]{3},setA.toArray());
+    }
+
+    @Test
+    public void testMemberContainsElement(){
         //our set is [2,3]
         setA.insert(3);
         setA.insert(2);
@@ -36,11 +57,25 @@ public class SetTest {
         //testing if numbers are in the set
         Assert.assertTrue(setA.member(3));
         Assert.assertTrue(setA.member(2));
+    }
+
+    @Test
+    public void testMemberNotContainsElement(){
+        //our set is [2,3]
+        setA.insert(3);
+        setA.insert(2);
 
         //testing numbers not in the set
         Assert.assertFalse(setA.member(9));
         Assert.assertFalse(setA.member(-5));
     }
+
+    // Branch Coverage
+    @Test
+    public void testMemberEmptyArray(){
+        Assert.assertFalse(setA.member(3));
+    }
+
     @Test
     public void testSection(){
         setA.insert(1);
