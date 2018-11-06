@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92c6622-cf9c-46aa-bfb4-d1a5fa631fa2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1/Test/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/Test/SetTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/TDA567$All_in_TDA567.coverage" NAME="All in TDA567 Coverage Results" MODIFIED="1541256751558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TDA567$SetTest_testContainsArithTriple.coverage" NAME="SetTest.testContainsArithTriple Coverage Results" MODIFIED="1541258633207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TDA567$SetTest_testSection.coverage" NAME="SetTest.testSection Coverage Results" MODIFIED="1541256818268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TDA567$SetTest_testInsert.coverage" NAME="SetTest.testInsert Coverage Results" MODIFIED="1541256849189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/TDA567$SetTest.coverage" NAME="SetTest Coverage Results" MODIFIED="1541258514325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/TDA567$All_in_TDA567.ic" NAME="All in TDA567 Coverage Results" MODIFIED="1541245330275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -23,22 +29,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1237" />
+          <entry key="java" value="2289" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1237" />
+          <entry key="JAVA" value="2289" />
         </counts>
       </usages-collector>
     </session>
@@ -46,55 +52,26 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="874">
-                  <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2398#2399#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="665">
-                  <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
+                <state relative-caret-position="-330">
                   <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#416#417#0" expanded="true" />
-                    <element signature="e#483#484#0" expanded="true" />
-                    <element signature="e#587#588#0" expanded="true" />
-                    <element signature="e#652#653#0" expanded="true" />
-                    <element signature="e#755#756#0" expanded="true" />
-                    <element signature="e#822#823#0" expanded="true" />
-                    <element signature="e#925#926#0" expanded="true" />
-                    <element signature="e#990#991#0" expanded="true" />
-                    <element signature="e#1106#1107#0" expanded="true" />
-                    <element signature="e#1172#1173#0" expanded="true" />
                     <element signature="e#1289#1290#0" expanded="true" />
                     <element signature="e#1354#1355#0" expanded="true" />
-                    <element signature="e#1802#1803#0" expanded="true" />
-                    <element signature="e#1867#1868#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="707">
+                  <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -102,21 +79,69 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Lab1/src/Set.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1156">
-                  <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+                <state relative-caret-position="585">
+                  <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
                   <folding>
-                    <element signature="e#92#93#0" expanded="true" />
-                    <element signature="e#136#137#0" expanded="true" />
+                    <element signature="e#106#107#0" expanded="true" />
+                    <element signature="e#150#151#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Test/SetTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1938">
+                  <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/Test/SetTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-849">
+                  <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1711#1712#0" expanded="true" />
+                    <element signature="e#1761#1762#0" expanded="true" />
+                    <element signature="e#2816#2817#0" expanded="true" />
+                    <element signature="e#2878#2879#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Lab1/Test/SetTest.java">
+            <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkingEmployeesTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="20" selection-start-column="20" selection-end-column="20" />
+                <state relative-caret-position="476">
+                  <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#680#681#0" expanded="true" />
+                    <element signature="e#751#752#0" expanded="true" />
+                    <element signature="e#761#762#0" expanded="true" />
+                    <element signature="e#796#797#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Lab1/src/BinarySearch.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -141,11 +166,13 @@
         <option value="$PROJECT_DIR$/Lab1/src/Test/WorkScheduleTest.java" />
         <option value="$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java" />
         <option value="$PROJECT_DIR$/Lab1/src/Set.java" />
+        <option value="$PROJECT_DIR$/Lab1/Test/SetTest.java" />
+        <option value="$PROJECT_DIR$/Lab1/Test/WorkingEmployeesTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -154,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,19 +203,13 @@
               <item name="TDA567" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDA567" type="462c0819:PsiDirectoryNode" />
               <item name="Lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDA567" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDA567" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
@@ -199,7 +219,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541247416540" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541514898792" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -222,38 +242,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in TDA567">
-    <configuration name="All in TDA567" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDA567" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkScheduleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WorkingEmployeesTest">
+    <configuration name="Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab1.Set" />
       <module name="TDA567" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="lab1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDA567" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test.WorkScheduleTest" />
+      <option name="MAIN_CLASS_NAME" value="SetTest" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkScheduleTest.testSomeHourFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetTest.testContainsArithTriple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDA567" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WorkScheduleTest" />
-      <option name="METHOD_NAME" value="testSomeHourFull" />
+      <option name="MAIN_CLASS_NAME" value="SetTest" />
+      <option name="METHOD_NAME" value="testContainsArithTriple" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -261,16 +278,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SetTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDA567" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SetTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkingEmployeesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDA567" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WorkingEmployeesTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.WorkScheduleTest" />
-      <item itemvalue="JUnit.All in TDA567" />
-      <item itemvalue="JUnit.WorkScheduleTest.testSomeHourFull" />
+      <item itemvalue="JUnit.SetTest" />
+      <item itemvalue="JUnit.SetTest.testInsert" />
+      <item itemvalue="JUnit.SetTest.testContainsArithTriple" />
+      <item itemvalue="Application.Set" />
+      <item itemvalue="JUnit.WorkingEmployeesTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in TDA567" />
-        <item itemvalue="JUnit.WorkScheduleTest.testSomeHourFull" />
-        <item itemvalue="JUnit.WorkScheduleTest" />
+        <item itemvalue="JUnit.WorkingEmployeesTest" />
+        <item itemvalue="JUnit.SetTest" />
+        <item itemvalue="Application.Set" />
+        <item itemvalue="JUnit.SetTest.testContainsArithTriple" />
+        <item itemvalue="JUnit.SetTest.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -288,42 +329,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TDA567 - 2018.11.02 at 23h 34m 40s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest_testContainsArithTriple - 2018.11.03 at 16h 20m 03s.xml">
+      <configuration name="SetTest.testContainsArithTriple" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.02 at 23h 36m 46s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest_testContainsArithTriple - 2018.11.03 at 16h 22m 27s.xml">
+      <configuration name="SetTest.testContainsArithTriple" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.02 at 23h 40m 28s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest_testContainsArithTriple - 2018.11.03 at 16h 22m 50s.xml">
+      <configuration name="SetTest.testContainsArithTriple" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 08m 29s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest_testContainsArithTriple - 2018.11.03 at 16h 23m 54s.xml">
+      <configuration name="SetTest.testContainsArithTriple" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 19m 29s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest_testContainsArithTriple - 2018.11.03 at 16h 26m 09s.xml">
+      <configuration name="SetTest.testContainsArithTriple" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 21m 12s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest - 2018.11.06 at 15h 07m 15s.xml">
+      <configuration name="SetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_TDA567 - 2018.11.03 at 11h 21m 15s.xml">
-      <configuration name="All in TDA567" configurationId="JUnit" />
+    <history-entry file="SetTest - 2018.11.06 at 15h 18m 53s.xml">
+      <configuration name="SetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkScheduleTest - 2018.11.02 at 23h 32m 30s.xml">
-      <configuration name="WorkScheduleTest" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeesTest - 2018.11.06 at 15h 27m 45s.xml">
+      <configuration name="WorkingEmployeesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkScheduleTest - 2018.11.02 at 23h 34m 46s.xml">
-      <configuration name="WorkScheduleTest" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeesTest - 2018.11.06 at 15h 29m 31s.xml">
+      <configuration name="WorkingEmployeesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkScheduleTest_testSomeHourFull - 2018.11.03 at 11h 06m 38s.xml">
-      <configuration name="WorkScheduleTest.testSomeHourFull" configurationId="JUnit" />
+    <history-entry file="WorkingEmployeesTest - 2018.11.06 at 15h 30m 06s.xml">
+      <configuration name="WorkingEmployeesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4152452" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -332,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,7 +381,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -349,59 +390,68 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.37995824" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" visible="true" weight="0.1671875" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
+    <entry file="file://$PROJECT_DIR$/Lab1/Test/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="-849">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#2816#2817#0" expanded="true" />
+            <element signature="e#2878#2879#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1/src/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="585">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1/Test/SetTest.java">
+    <entry file="file://$PROJECT_DIR$/Lab1/src/WorkSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        <state relative-caret-position="707">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkScheduleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1/Test/WorkingEmployeesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
